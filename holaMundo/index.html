@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function holamundo(){
+            alert("Hola mundo");
+        }
+
+        function holamundoParrafo() {
+            
+            document.getElementById("p").innerHTML = "Párrafo Cambiado";
+        }
+        holamundo();
+    </script>
+</head>
+<body>
+    <h1>Bienvenido al curso de Javascript</h1>
+    <button onclick="holamundo()">Función HolaMundo</button>
+    <button onclick="holamundoParrafo()">Función holamundoParrafo</button>
+    <p id="p">Párrafo Original</p>
+</body>
+</html>
